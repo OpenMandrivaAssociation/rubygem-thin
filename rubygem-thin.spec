@@ -10,6 +10,7 @@ Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://code.macournoyer.com/thin/
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
+Patch0:		thin-1.3.1-format-string-fixes.patch
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
 
@@ -27,6 +28,7 @@ Documents, RDoc & RI documentation for %{name}.
 
 %prep
 %setup -q
+%patch0 -p1 -b .str_fmt~
 
 %build
 %gem_build
