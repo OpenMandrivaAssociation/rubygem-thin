@@ -12,7 +12,6 @@ URL:		http://code.macournoyer.com/thin/
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
-BuildRequires:	rubygem(rake)
 
 %description
 A thin and fast web server
