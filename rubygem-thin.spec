@@ -60,3 +60,16 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files doc
 %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.1-2
++ Revision: 774531
+- format string fixes (P0)
+- drop build dependency on rake as it's now provided by ruby's standard library
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Tue Jan 24 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.3.1-1
++ Revision: 768092
+- imported package rubygem-thin
+
