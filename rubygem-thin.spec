@@ -5,7 +5,7 @@ Summary:	A thin and fast web server
 Name:		rubygem-%{rbname}
 
 Version:	1.3.1
-Release:	2
+Release:	3
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://code.macournoyer.com/thin/
